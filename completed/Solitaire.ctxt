@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Solitaire
+comment0.text=\r\n\ Bulgarian\ Solitaire\ Simulation,\ from\ Horstmann's\ Big\ Java.\r\n\ \r\n\ @author\ jdalbey\r\n\ @version\ 2014.5.9\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Entry\ point\ for\ the\ application.\r\n\ \r\n\ @param\ args\ the\ desired\ initial\ collection\ of\ piles\r\n\ \ \ \ \ \ \ \ to\ start\ the\ game.\ \ An\ array\ of\ numbers\r\n\ \ \ \ \ \ \ \ representing\ the\ piles,\ e.,g\ "2\ 2\ 4\ 5\ 6\ 7\ 8\ 9"\r\n\ For\ correct\ results,\ the\ numbers\ must\ total\ 45,\r\n\ the\ numbers\ are\ all\ positive.\r\n
+numComments=2

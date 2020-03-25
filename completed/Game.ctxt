@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\ Game\ is\ a\ game\ of\ Bulgarian\ Solitaire.\r\n\ @author\ jdalbey\r\n\ @version\ 2014.5.9\r\n
+comment1.params=
+comment1.target=Game()
+comment1.text=\ Construct\ a\ game\ with\ a\ random\ board.\r\n
+comment2.params=initialConfig
+comment2.target=Game(java.lang.String)
+comment2.text=\ Construct\ a\ game\ and\ initialize\ the\ board.\r\n\ @param\ initialConfig\ the\ desired\ initial\ collection\ of\ piles\r\n\ \ \ \ \ \ \ \ to\ start\ the\ game.\ \ A\ String\ of\ blank-delimited\ numbers\r\n\ \ \ \ \ \ \ \ representing\ the\ piles,\ e.,g\ "2\ 2\ 4\ 5\ 6\ 7\ 8\ 9"\r\n\ (Precondition\:\ the\ numbers\ must\ total\ 45.)\r\n\ (Precondition\:\ the\ numbers\ are\ all\ positive.)\r\n\ (Postcondition\:\ board\ is\ built\ with\ initial\ config\ if\ provided)\r\n
+comment3.params=
+comment3.target=void\ run()
+comment3.text=Performs\ rounds\ until\ the\ game\ is\ over.
+comment4.params=
+comment4.target=int\ getRounds()
+comment4.text=Accessor\ to\ number\ of\ rounds
+numComments=5

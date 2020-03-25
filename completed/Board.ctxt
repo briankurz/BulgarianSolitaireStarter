@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Board
+comment0.text=\ A\ board\ is\ a\ collection\ of\ piles\ in\ Bulgarian\ Solitaire.\r\n\ @author\ jdalbey\r\n\ @version\ 2014.5.8\r\n
+comment1.params=
+comment1.target=Board()
+comment1.text=\ Generate\ a\ random\ initial\ configuration.\r\n
+comment2.params=
+comment2.target=java.util.List\ getBoard()
+comment2.text=\ Accessor\ to\ a\ copy\ of\ the\ board.\r\n\ @return\ copy\ of\ board\r\n
+comment3.params=initialConfig
+comment3.target=void\ setBoard(java.lang.String)
+comment3.text=\ Setup\ a\ desired\ preset\ initial\ configuration.\r\n\ @param\ initialConfig\ the\ desired\ initial\ collection\ of\ piles\r\n\ \ \ \ \ \ \ \ to\ start\ the\ game.\ \ A\ String\ of\ blank-delimited\ numbers\r\n\ \ \ \ \ \ \ \ representing\ the\ piles,\ e.,g\ "2\ 2\ 4\ 5\ 6\ 7\ 8\ 9"\r\n\ (Precondition\:\ the\ numbers\ must\ total\ 45.)\r\n\ (Precondition\:\ the\ numbers\ are\ all\ positive.)\r\n\ (Postcondition\:\ the\ board\ is\ set\ with\ the\ given\ piles)\r\n
+comment4.params=
+comment4.target=void\ playRound()
+comment4.text=\ Perform\ the\ "solitaire\ step"\ to\ determine\ the\ next\ configuration.\r\n\ \ Apply\ the\ rules\ of\ the\ game\ to\ transform\ the\ current\ board\r\n\ \ into\ the\ next\ configuration.\ \ Specifically,\ take\ one\ card\ from\ each\ pile,\ \r\n\ \ forming\ a\ new\ pile\ with\ these\ cards.\r\n
+comment5.params=
+comment5.target=boolean\ isWin()
+comment5.text=\ Report\ if\ the\ board\ is\ in\ the\ winning\ configuration\ or\ not.\r\n\ @return\ true\ if\ the\ board\ has\ piles\ of\ size\ 1,\ 2,\ 3,\ 4,\ 5,\ 6,\ 7,\ 8,\ and\ 9,\ \r\n\ \ \ \ \ \ \ \ \ in\ some\ order;\ false,\ otherwise.\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\ Return\ a\ printable\ representation\ of\ this\ board.\r\n\ \ @return\ a\ printable\ representation\ of\ this\ board.\r\n
+numComments=7

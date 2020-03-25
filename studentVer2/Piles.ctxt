@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Piles
+comment0.text=\r\n\ A\ class\ that\ plays\ Bulgarian\ Solitare.\r\n\ Version\ 3\:\ Complete\ the\ isDone\ method.\r\n
+comment1.params=
+comment1.target=boolean\ isDone()
+comment1.text=\r\n\ \ \ \ \ \ \ \ \ \ Checks\ whether\ the\ game\ is\ done.\r\n\ \ \ \ \ \ \ \ \ \ @return\ true\ when\ the\ piles\ have\ size\r\n\ \ \ \ \ \ \ \ \ \ 1,\ 2,\ 3,\ 4,\ 5,\ 6,\ 7,\ 8,\ and\ 9,\ in\ some\ order.\r\n
+comment2.params=generator
+comment2.target=Piles(java.util.Random)
+comment2.text=\r\n\ \ \ \ \ \ Sets\ up\ the\ game\ randomly\ with\ some\ number\ of\ piles\ of\ random\r\n\ \ \ \ \ \ size.\ The\ pile\ sizes\ add\ up\ to\ 45.\r\n
+comment3.params=pileSizes
+comment3.target=Piles(int[])
+comment3.text=\r\n\ \ \ \ \ \ Set\ up\ a\ pile\ with\ a\ known\ (non-random)\ configuration\ for\ testing.\r\n\ \ \ \ \ \ @param\ pileSizes\ an\ array\ of\ numbers\ whose\ sum\ is\ 45\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Return\ the\ string\ representation\ of\ the\ piles.\r\n\ @return\ the\ string\ representation\ of\ the\ piles.\r\n
+comment5.params=
+comment5.target=void\ playRound()
+comment5.text=\r\n\ \ \ \ \ \ Play\ one\ round\ of\ the\ game.\r\n
+numComments=6

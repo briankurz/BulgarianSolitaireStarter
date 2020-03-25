@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=BulgarianSolitaireTester
+comment0.text=\r\n\ \ \ Play\ the\ game\ of\ Bulgarian\ Solitare.\r\n\ \ \ Count\ how\ many\ turns\ it\ takes\ to\ print\ one\ turn.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
